@@ -1,0 +1,164 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.header-container h1 {
+    margin: 0;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.intro {
+    background-image: url('images/Hero-bg.png');
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e9ecef;
+}
+
+.intro .avatar {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.intro h2 {
+    margin: 20px 0;
+}
+
+.intro p {
+    color: #777;
+}
+
+.why-web-dev {
+    padding: 20px;
+    text-align: center;
+}
+
+.reasons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.reason_1, .reason_2, .reason_3 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.reason_1, .reason_3 {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.reason_1 .text-content, 
+.reason_1 .image-content,
+.reason_3 .text-content, 
+.reason_3 .image-content {
+    flex: 1;
+}
+
+.reason_2 {
+    flex-direction: row-reverse;
+}
+
+.reason_2 .text-content,
+.reason_2 .image-content {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.reason_3 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-content {
+    padding: 10px;
+}
+
+.text-content h3 {
+    margin-top: 0; 
+}
+
+.learn-more {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.inspiration {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.targets {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.targets-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.target {
+    flex: 1;
+    max-width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+
+.support {
+    background-image: url('images/handshake.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 20px;
+    background-color: #e9ecef;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #e9ecef;
+}
+
+.social-links img {
+    width: 30px;
+    margin: 0 10px;
+}
+
