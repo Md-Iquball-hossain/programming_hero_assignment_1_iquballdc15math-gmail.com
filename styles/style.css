@@ -48,12 +48,14 @@ body {
 }
 
 .why-web-dev {
-    padding: 20px;
     text-align: center;
+    padding: 10px 0px;
+    background-color: #f1efef;
 }
 
 .reasons {
     display: flex;
+    background-color: #f1efef;
     flex-direction: column;
     gap: 20px;
 }
@@ -61,14 +63,21 @@ body {
 .reason_1, .reason_2, .reason_3 {
     display: flex;
     align-items: center;
+    background-color: #ffffff;
     gap: 20px;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto;
 }
+
 
 .reason_1, .reason_3 {
     flex-direction: row;
     justify-content: center;
+    background-color: #ffffff;
     align-items: center;
     text-align: center;
+    margin: 0 auto;
 }
 
 .reason_1 .text-content, 
@@ -116,13 +125,25 @@ body {
 
 .inspiration {
     padding: 50px 20px;
-    background-color: #f4f4f4;
+    background-color: #eae8e8;
     text-align: center;
 }
 
-.targets {
+.html {
     padding: 50px 20px;
-    background-color: #fff;
+    background-color: #f6ecec;
+    text-align: center;
+}
+
+.css {
+    padding: 50px 20px;
+    background-color: #dee3f5;
+    text-align: center;
+}
+
+.js {
+    padding: 50px 20px;
+    background-color: #ebecda;
     text-align: center;
 }
 
@@ -140,16 +161,42 @@ body {
     text-align: center;
 }
 
+.targets {
+    text-align: center;
+}
+
 .support {
     background-image: url('../images/handshake.jpg');
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 50px 20px;
+    padding: 35px 20px;
     background-color: #e9ecef;
     text-align: center;
-    height: 100vh;
+    height: 30vh;
+    font-size: 24px;
+    color: #07213f;
+    font-weight: bold;
 }
+
+.support::placeholder {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.support input[type="text"] {
+    width: 30%;
+    padding: 5px;
+    height: 40px;
+}
+
+.support button[type="submit"] {
+    padding: 5px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+}
+
 
 footer {
     display: flex;
